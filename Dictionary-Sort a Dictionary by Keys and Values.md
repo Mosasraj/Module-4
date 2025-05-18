@@ -31,19 +31,18 @@ To write a Python program that sorts a dictionary's:
 
 ## 🧪Program
 ```
-my_dict = {'banana': 3, 'apple': 5, 'cherry': 2, 'date': 4}
-sorted_by_keys = dict(sorted(my_dict.items()))
-sorted_by_values = dict(sorted(my_dict.items(), key=lambda item: item[1]))
-print("Original dictionary:", my_dict)
-print("Dictionary sorted by keys:", sorted_by_keys)
-print("Dictionary sorted by values:", sorted_by_values)
+data = {2: 56, 1: 2, 5: 12, 4: 24, 6: 18, 3: 323}
+print("Original Dictionary:")
+print(data)
+sorted_by_keys = dict(sorted(data.items()))
+print("\nDictionary Sorted by Keys:")
+print(sorted_by_keys)
+sorted_by_values = dict(sorted(data.items(), key=lambda item: item[1]))
+print("\nDictionary Sorted by Values:")
+print(sorted_by_values)
 ```
 # End the program
 ## Sample Output
-```
-Original dictionary: {'banana': 3, 'apple': 5, 'cherry': 2, 'date': 4}
-Dictionary sorted by keys: {'apple': 5, 'banana': 3, 'cherry': 2, 'date': 4}
-Dictionary sorted by values: {'cherry': 2, 'banana': 3, 'date': 4, 'apple': 5}
-```
+![image](https://github.com/user-attachments/assets/3cbcefdf-96f9-4966-a008-8d8b1898121f)
 ## Result
 Thus the given program is verified and executed sucessfully
