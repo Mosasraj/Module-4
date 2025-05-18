@@ -13,18 +13,16 @@ To write a Python program that calculates the **area of a circle** based on the 
 ## 🧾 Program
 ```
 import math
-class cse:
-    def mech(self, r):
-        area = math.pi * (r ** 2)
-        print("Area of the circle is:", area)
-radius = float(input("Enter the radius of the circle: "))
-obj = cse()
-obj.mech(radius)
+class pen:
+    def stationary(self,area):
+        ar=math.pi*area**2
+        print(f"Area of circle: {ar:.2f}")
+        
+my_pen=pen()
+my_pen.stationary(int(input()))
 ```
 ## Output
-```
-Enter the radius of the circle: 3
-Area of the circle is: 28.274333882308138
-```
+![image](https://github.com/user-attachments/assets/2f452232-b45c-494d-88cb-763aaec3763e)
+
 ## Result
 Thus the given program is verified and executed sucessfully
