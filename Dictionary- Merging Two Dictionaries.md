@@ -11,16 +11,15 @@ To write a Python program that merges **two dictionaries** and combines their ke
 
 ## 🧾 Program
 ```
-dict1 = {'a': 1, 'b': 2, 'c': 3}
-dict2 = {'b': 20, 'd': 4}
+dict1 = eval(input())
+dict2 = eval(input())
 def merge():
     merged_dict = {**dict1, **dict2}
     print("Merged dictionary:", merged_dict)
 merge()
 ```
 ## Output
-```
-Merged dictionary: {'a': 1, 'b': 20, 'c': 3, 'd': 4}
-```
+![image](https://github.com/user-attachments/assets/93f9aa62-6d6b-47e9-a8a5-1d73c2a2fdf9)
+
 ## Result
 Thus the given program is verified and executed sucessfully
