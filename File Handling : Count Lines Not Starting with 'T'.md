@@ -21,8 +21,7 @@ with open("story.txt", "r") as file:
 print("Number of lines that do not start with 'T':", count)
 ```
 ## Output
-```
-Number of lines that do not start with 'T': 2
-```
+![image](https://github.com/user-attachments/assets/0bbce505-50f3-4240-96f9-cb2e708a798b)
+
 ## Result
 Thus the given program is verified and executed sucessfully
